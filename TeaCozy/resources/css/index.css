@@ -1,0 +1,159 @@
+/* Header Section */
+
+.headerContainer{
+  display: flex;
+  height: 69px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.headerContainer img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+.headerContainer span{
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.navBar{
+  margin-right: 10px;
+}
+
+/* Body Spesific Section */
+
+body{
+  background-color: Black;
+  font-size: 22px;
+  color: seashell;
+  font-family: Helvetica, serif;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a{
+  color: seashell;
+}
+
+h2, h3, h4, h5{
+  padding: 10px;
+  margin: 0px;
+}
+
+footer{
+  height: 200px;
+}
+
+footer h5{
+  padding-bottom: 25px;
+}
+
+footer h2{
+  padding-bottom: 40px;
+}
+
+/* Main Content Section */
+
+/* Top Main Content Section */
+
+.topMainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  height: 700px;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topMainContainer h2, h4{
+  width: 100%;
+  background-color: Black;
+}
+
+/* Middle Main Section */
+
+.productList{
+  max-width: 1000px;
+  margin: auto;
+  padding: 70px;
+}
+
+.middleMainContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.middleMainContainer img{
+  height: 200px;
+  width: 300px;
+}
+
+.middleMainContainer div{
+  padding: 7px;
+}
+
+/* Bottom Main Section */
+
+.bottomMainContainer{
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  max-width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomMainContainer h2{
+  margin-bottom: 15px;
+}
+
+.locationContainer{
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.locationContainer div{
+  width: 300px;
+  padding: 10px 0;
+}
+
+/* Footer Content Section */
+
+.footerLeft{
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+/* Class Collection */
+
+.BlackMargin{
+  background-color: Black;
+  margin: 12px;
+  opacity: 1;
+}
